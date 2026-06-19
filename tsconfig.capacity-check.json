@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src/vite-env.d.ts",
+    "src/lib/capacity-platform/**/*.ts",
+    "src/hooks/capacity-platform/**/*.ts",
+    "src/components/capacity-platform/**/*.tsx",
+    "src/pages/timesheet/capacity-platform/**/*.tsx",
+    "src/integrations/supabase/client.ts",
+    "src/integrations/supabase/types.ts",
+    "src/context/AuthContext.tsx"
+  ]
+}
